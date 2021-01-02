@@ -7,7 +7,7 @@ services:
     ports:
       - 80:8080
     volumes:
-      - moodle_data:/var/www/moodledata:rw
+      - moodle_data:/var/www/moodledata
 
   db:
     image: 'mysql:5.7'

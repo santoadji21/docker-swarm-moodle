@@ -4,7 +4,7 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->dbtype    = 'mysql';
+$CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'moodle_db';
 $CFG->dbname    = 'moodle';
@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 
 $CFG->wwwroot   = 'http://192.168.56.10';
 $CFG->dataroot  = '/var/www/moodledata';
-$CFG->admin     = 'admin';
+$CFG->admin     = 'www-data';
 
 $CFG->directorypermissions = 0777;
 $CFG->sslproxy=0;
