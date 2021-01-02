@@ -1,0 +1,5 @@
+version: '3'
+services:
+  moodle:
+    build: ./moodle/
+    image: adji21/moodleswarm
